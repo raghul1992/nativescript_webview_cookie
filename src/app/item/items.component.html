@@ -1,0 +1,11 @@
+
+<ActionBar title="Login"\>
+
+
+<StackLayout>
+    <TextField hint="email" [([(ngModel)]="mEmail")]></TextField>
+    <TextField hint="password" [([(ngModel)]="mPassword")]></TextField>
+    <label [([(ngModel)]="message")]></label>
+
+    <button (tap)="onLoginButtonTap()" text="LOGIN"></button>
+</StackLayout>
